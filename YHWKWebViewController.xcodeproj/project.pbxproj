@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC6500D31E092FF300426BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500D21E092FF300426BC2 /* main.m */; };
+		AC6500D61E092FF300426BC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500D51E092FF300426BC2 /* AppDelegate.m */; };
+		AC6500D91E092FF300426BC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500D81E092FF300426BC2 /* ViewController.m */; };
+		AC6500DC1E092FF300426BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DA1E092FF300426BC2 /* Main.storyboard */; };
+		AC6500DE1E092FF300426BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DD1E092FF300426BC2 /* Assets.xcassets */; };
+		AC6500E11E092FF300426BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DF1E092FF300426BC2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC6500CE1E092FF300426BC2 /* YHWKWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHWKWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6500D21E092FF300426BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC6500D41E092FF300426BC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC6500D51E092FF300426BC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC6500D71E092FF300426BC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC6500D81E092FF300426BC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC6500DB1E092FF300426BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC6500DD1E092FF300426BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC6500E01E092FF300426BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC6500E21E092FF300426BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6500CB1E092FF300426BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6500C51E092FF300426BC2 = {
+			isa = PBXGroup;
+			children = (
+				AC6500D01E092FF300426BC2 /* YHWKWebViewController */,
+				AC6500CF1E092FF300426BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6500CF1E092FF300426BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6500CE1E092FF300426BC2 /* YHWKWebViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6500D01E092FF300426BC2 /* YHWKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC6500D41E092FF300426BC2 /* AppDelegate.h */,
+				AC6500D51E092FF300426BC2 /* AppDelegate.m */,
+				AC6500D71E092FF300426BC2 /* ViewController.h */,
+				AC6500D81E092FF300426BC2 /* ViewController.m */,
+				AC6500DA1E092FF300426BC2 /* Main.storyboard */,
+				AC6500DD1E092FF300426BC2 /* Assets.xcassets */,
+				AC6500DF1E092FF300426BC2 /* LaunchScreen.storyboard */,
+				AC6500E21E092FF300426BC2 /* Info.plist */,
+				AC6500D11E092FF300426BC2 /* Supporting Files */,
+			);
+			path = YHWKWebViewController;
+			sourceTree = "<group>";
+		};
+		AC6500D11E092FF300426BC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6500D21E092FF300426BC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC6500CD1E092FF300426BC2 /* YHWKWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6500E51E092FF300426BC2 /* Build configuration list for PBXNativeTarget "YHWKWebViewController" */;
+			buildPhases = (
+				AC6500CA1E092FF300426BC2 /* Sources */,
+				AC6500CB1E092FF300426BC2 /* Frameworks */,
+				AC6500CC1E092FF300426BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHWKWebViewController;
+			productName = YHWKWebViewController;
+			productReference = AC6500CE1E092FF300426BC2 /* YHWKWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6500C61E092FF300426BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YHSoft;
+				TargetAttributes = {
+					AC6500CD1E092FF300426BC2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC6500C91E092FF300426BC2 /* Build configuration list for PBXProject "YHWKWebViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC6500C51E092FF300426BC2;
+			productRefGroup = AC6500CF1E092FF300426BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6500CD1E092FF300426BC2 /* YHWKWebViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6500CC1E092FF300426BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6500E11E092FF300426BC2 /* LaunchScreen.storyboard in Resources */,
+				AC6500DE1E092FF300426BC2 /* Assets.xcassets in Resources */,
+				AC6500DC1E092FF300426BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6500CA1E092FF300426BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6500D91E092FF300426BC2 /* ViewController.m in Sources */,
+				AC6500D61E092FF300426BC2 /* AppDelegate.m in Sources */,
+				AC6500D31E092FF300426BC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC6500DA1E092FF300426BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6500DB1E092FF300426BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC6500DF1E092FF300426BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6500E01E092FF300426BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC6500E31E092FF300426BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC6500E41E092FF300426BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6500E61E092FF300426BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHWKWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKP.YHWKWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC6500E71E092FF300426BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHWKWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HKP.YHWKWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6500C91E092FF300426BC2 /* Build configuration list for PBXProject "YHWKWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6500E31E092FF300426BC2 /* Debug */,
+				AC6500E41E092FF300426BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6500E51E092FF300426BC2 /* Build configuration list for PBXNativeTarget "YHWKWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6500E61E092FF300426BC2 /* Debug */,
+				AC6500E71E092FF300426BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6500C61E092FF300426BC2 /* Project object */;
+}
