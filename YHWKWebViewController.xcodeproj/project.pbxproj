@@ -13,6 +13,10 @@
 		AC6500DC1E092FF300426BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DA1E092FF300426BC2 /* Main.storyboard */; };
 		AC6500DE1E092FF300426BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DD1E092FF300426BC2 /* Assets.xcassets */; };
 		AC6500E11E092FF300426BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6500DF1E092FF300426BC2 /* LaunchScreen.storyboard */; };
+		AC6500EB1E09302100426BC2 /* YHWKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500EA1E09302100426BC2 /* YHWKWebVC.m */; };
+		AC6500ED1E09303E00426BC2 /* JSWKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = AC6500EC1E09303E00426BC2 /* JSWKWebView.html */; };
+		AC6500F01E09306200426BC2 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500EF1E09306200426BC2 /* ViewController2.m */; };
+		AC6500F41E09311A00426BC2 /* UIBarButtonItem+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6500F31E09311A00426BC2 /* UIBarButtonItem+Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		AC6500DD1E092FF300426BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6500E01E092FF300426BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6500E21E092FF300426BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6500E91E09302100426BC2 /* YHWKWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHWKWebVC.h; sourceTree = "<group>"; };
+		AC6500EA1E09302100426BC2 /* YHWKWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHWKWebVC.m; sourceTree = "<group>"; };
+		AC6500EC1E09303E00426BC2 /* JSWKWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSWKWebView.html; sourceTree = "<group>"; };
+		AC6500EE1E09306200426BC2 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		AC6500EF1E09306200426BC2 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		AC6500F21E09311A00426BC2 /* UIBarButtonItem+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Custom.h"; sourceTree = "<group>"; };
+		AC6500F31E09311A00426BC2 /* UIBarButtonItem+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Custom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,15 @@
 		AC6500D01E092FF300426BC2 /* YHWKWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AC6500EC1E09303E00426BC2 /* JSWKWebView.html */,
+				AC6500F11E09311A00426BC2 /* Category */,
+				AC6500E81E09302100426BC2 /* YHWKWebVC */,
 				AC6500D41E092FF300426BC2 /* AppDelegate.h */,
 				AC6500D51E092FF300426BC2 /* AppDelegate.m */,
 				AC6500D71E092FF300426BC2 /* ViewController.h */,
 				AC6500D81E092FF300426BC2 /* ViewController.m */,
+				AC6500EE1E09306200426BC2 /* ViewController2.h */,
+				AC6500EF1E09306200426BC2 /* ViewController2.m */,
 				AC6500DA1E092FF300426BC2 /* Main.storyboard */,
 				AC6500DD1E092FF300426BC2 /* Assets.xcassets */,
 				AC6500DF1E092FF300426BC2 /* LaunchScreen.storyboard */,
@@ -77,6 +93,24 @@
 				AC6500D21E092FF300426BC2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC6500E81E09302100426BC2 /* YHWKWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC6500E91E09302100426BC2 /* YHWKWebVC.h */,
+				AC6500EA1E09302100426BC2 /* YHWKWebVC.m */,
+			);
+			path = YHWKWebVC;
+			sourceTree = "<group>";
+		};
+		AC6500F11E09311A00426BC2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AC6500F21E09311A00426BC2 /* UIBarButtonItem+Custom.h */,
+				AC6500F31E09311A00426BC2 /* UIBarButtonItem+Custom.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +174,7 @@
 				AC6500E11E092FF300426BC2 /* LaunchScreen.storyboard in Resources */,
 				AC6500DE1E092FF300426BC2 /* Assets.xcassets in Resources */,
 				AC6500DC1E092FF300426BC2 /* Main.storyboard in Resources */,
+				AC6500ED1E09303E00426BC2 /* JSWKWebView.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6500EB1E09302100426BC2 /* YHWKWebVC.m in Sources */,
+				AC6500F41E09311A00426BC2 /* UIBarButtonItem+Custom.m in Sources */,
 				AC6500D91E092FF300426BC2 /* ViewController.m in Sources */,
+				AC6500F01E09306200426BC2 /* ViewController2.m in Sources */,
 				AC6500D61E092FF300426BC2 /* AppDelegate.m in Sources */,
 				AC6500D31E092FF300426BC2 /* main.m in Sources */,
 			);
@@ -273,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YHWKWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HKP.YHWKWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YHWKWebViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HKP.YHWKWebViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";

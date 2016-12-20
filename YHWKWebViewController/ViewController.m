@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ViewController2.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)push:(id)sender {
+    //    NSURL *url = [NSURL URLWithString:@"http://testapp.gtax.cn/taxtao/index_new"];
+    NSString *filePath = [[NSBundle mainBundle]pathForResource:@"JSWKWebView" ofType:@"html"];
+    NSURL *url = [NSURL fileURLWithPath:filePath];
+    ViewController2 *vc = [[ViewController2 alloc] init];
+    vc.url = url;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
